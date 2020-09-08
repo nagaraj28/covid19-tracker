@@ -51,9 +51,11 @@ crossorigin=""
     <h1  >Covid19 DashBoard 😷</h1>  
     <Map  center={[0,0]} zoom={3} >  
     <TileLayer
+  
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       // url="https://{s}.tile.osm.org/{z}/{x}/{y}.png"//pointed Icon
         attribution='&copy; <a href="http://osm.org/copyright">OpenstreetMap</a> contributors'
+        noWrap="true"
      ></TileLayer>
           <GeoJSON  id ="mapId" data={geoJson.features}></GeoJSON>
         {geoJson.features.map(park=> (
