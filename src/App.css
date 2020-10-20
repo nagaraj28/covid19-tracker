@@ -1,9 +1,28 @@
 
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
 #mapId{
+  
   height:1000px;
 color:rgb(red, green, blue);
 text-align: center;
-text-shadow: 2px 2px 5px red;
+//text-shadow: 2px 2px 5px red;
+
+}
+#mapalign
+{
+  padding-top: 3%;
+  padding-right:5%;
+  padding-left:5%;
+  font-style: italic;
+  font-weight: 1000;
+  text-decoration: underline;
+
+
 }
 .leaflet-container {
   width: 100%;
@@ -12,5 +31,16 @@ text-shadow: 2px 2px 5px red;
 }
 h4{
   text-shadow: 2px 2px 5px white;
+
+}
+.titl{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.cardpad{
+  padding-top: 3%;
 
 }
